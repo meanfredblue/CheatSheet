@@ -1,3 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240,255,240);
+    line-height: 1.5;
+}
+
+main {
+    width: 1000px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;  
+    margin: 0 auto;
+    background-color: rgb(253, 255, 230);
+}
+
 h1 {
-    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(10, 58, 10);
+    color: rgb(253, 255, 230);
+    font-weight: bold;
+    font-size: 38px;
+    margin: 0 auto;
+}
+
+aside {
+    border: 1px solid rgb(10, 58, 10);
+    margin: 5px 50px;
+}
+
+code {
+    float: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    color: lightsalmon;
+    background-color: #303030;
 }
