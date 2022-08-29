@@ -25,9 +25,30 @@ h1 {
     margin: 0 auto;
 }
 
+article {
+    margin: 20px 5px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+article h1 {
+    color: rgb(10, 58, 10);
+    background-color: rgb(253, 255, 230);
+}
+
+article h2 {
+    font-size: 24px;
+    color: rgb(18, 28, 18);
+    line-height: 1.1;
+    margin: 5px 5px;
+}
+
 aside {
     border: 1px solid rgb(10, 58, 10);
-    margin: 5px 50px;
+    margin: 20px 50px;
+    padding: 0 5px;
 }
 
 code {
@@ -37,4 +58,25 @@ code {
     font-weight: bold;
     color: lightsalmon;
     background-color: #303030;
+}
+
+table {
+    border: 1px solid rgb(10, 58, 10);
+    column-gap: 0;
+    border-spacing: 2px;
+}
+
+th {
+    background-color: rgb(10, 58, 10);
+    color: rgb(253, 255, 230);
+    padding: 0 5px;
+}
+
+td {
+    border-top: 1px solid rgb(10, 58, 10);
+    padding-right: 10px;
+}
+
+tr:first-child td {
+    border: none;
 }
