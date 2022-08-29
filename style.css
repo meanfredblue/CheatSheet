@@ -4,7 +4,7 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: rgb(240,255,240);
+    background-color: rgb(189, 200, 189);
     line-height: 1.5;
 }
 
@@ -33,12 +33,12 @@ section {
     margin: 20px 0;
 }
 
-article h1 {
+article h2 {
     color: rgb(10, 58, 10);
     background-color: rgb(253, 255, 230);
 }
 
-article h2 {
+article h3 {
     font-size: 24px;
     color: rgb(18, 28, 18);
     line-height: 1.1;
@@ -79,4 +79,14 @@ td {
 
 tr:first-child td {
     border: none;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: rgb(10, 58, 10);    
+    color: rgb(253, 255, 230);    
+}
+
+footer p {
+    padding: 5px 20px;
 }
